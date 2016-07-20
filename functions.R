@@ -1,7 +1,7 @@
 #steps for usage:
 #Paste the hourly usage data into a new workbook, save it as "hourlydata", with the file type "CSV (MS-DOS)".  This is important.
 #Paste the pvwatts hourly data without the metadata passed to pvwatts into a new workbook, save it as "pvwatts" with the same CSV file type.
-
+ 
 calcExport <- function (systemSize) {
 
 hourdat <- read.csv("hourlydata.csv")
